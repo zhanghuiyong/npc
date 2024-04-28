@@ -1,5 +1,5 @@
 ---
-title: La Palma Earthquakes
+title: 鼻咽癌早期诊断模型
 author:
   - name: Steve Purves
     orcid: 0000-0002-0760-5497
@@ -19,24 +19,30 @@ author:
     affiliations:
       - Curvenote
 keywords:
-  - La Palma
-  - Earthquakes
+  - EBV
+  - Early nasopharyngeal carcinoma detection
+  - machine learning
 abstract: |
-  In September 2021, a significant jump in seismic activity on the island of La Palma (Canary Islands, Spain) signaled the start of a volcanic crisis that still continues at the time of writing. Earthquake data is continually collected and published by the Instituto Geográphico Nacional (IGN). ...
+  **Purpose.** 探索利用临床检验信息和EB病毒标志物检测鼻咽癌方法。 |
+  **Methods.** .1）入组队列提取 2）数据预处理。3）统计分析（差异分析）. 4)特征提取，5）machine learning 6）效果分析 |
+  **Results.** .1）统计分析：具备显著性特征。2）machine learning：敏感性、特异性、AUC  |
+  **Conclusion.** 敏感性和特异性、诊断效能  |
 plain-language-summary: |
-  Earthquake data for the island of La Palma from the September 2021 eruption is found ...
+   ...
 key-points:
-  - A web scraping script was developed to pull data from the Instituto Geogràphico Nacional into a machine-readable form for analysis
-  - Earthquake events on La Palma are consistent with the presence of both mantle and crustal reservoirs.
+  - 1）入组队列提取 2）数据预处理。3）统计分析（差异分析）. 4)特征提取，5）machine learning 6）效果分析
+
 date: last-modified
 bibliography: references.bib
 citation:
-  container-title: Earth and Space Science
+  container-title: 鼻咽癌早期诊断
 number-sections: true
 jupyter: python3
 ---
 
-## Introduction
+## Introductiondit
+
+文献[@lai2024]讨论了鼻咽癌的流行病学、病因和诊断，提供了UpToDate的权威信息。
 
 ```{python}
 import matplotlib.pyplot as plt

@@ -1,0 +1,36 @@
+Looking in indexes: http://mirrors.aliyun.com/pypi/simple/
+Collecting FuzzyTM
+  Downloading http://mirrors.aliyun.com/pypi/packages/2d/30/074bac7a25866a2807c1005c7852c0139ac22ba837871fc01f16df29b9dc/FuzzyTM-2.0.9-py3-none-any.whl (31 kB)
+Requirement already satisfied: numpy in /opt/anaconda3/envs/paper/lib/python3.11/site-packages (from FuzzyTM) (1.25.1)
+Requirement already satisfied: pandas in /opt/anaconda3/envs/paper/lib/python3.11/site-packages (from FuzzyTM) (2.0.3)
+Requirement already satisfied: scipy in /opt/anaconda3/envs/paper/lib/python3.11/site-packages (from FuzzyTM) (1.11.4)
+Collecting pyfume (from FuzzyTM)
+  Downloading http://mirrors.aliyun.com/pypi/packages/f0/fe/b899a3d9a18c9a44a35155c79a4c152cb85990ea38ce6ab7ed73e5caa1b9/pyFUME-0.3.1-py3-none-any.whl (59 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 59.6/59.6 kB 1.7 MB/s eta 0:00:00
+Requirement already satisfied: python-dateutil>=2.8.2 in /opt/anaconda3/envs/paper/lib/python3.11/site-packages (from pandas->FuzzyTM) (2.8.2)
+Requirement already satisfied: pytz>=2020.1 in /opt/anaconda3/envs/paper/lib/python3.11/site-packages (from pandas->FuzzyTM) (2023.3)
+Requirement already satisfied: tzdata>=2022.1 in /opt/anaconda3/envs/paper/lib/python3.11/site-packages (from pandas->FuzzyTM) (2023.3)
+Collecting simpful (from pyfume->FuzzyTM)
+  Downloading http://mirrors.aliyun.com/pypi/packages/9d/0e/aebc2fb0b0f481994179b2ee2b8e6bbf0894d971594688c018375e7076ea/simpful-2.12.0-py3-none-any.whl (24 kB)
+Collecting fst-pso (from pyfume->FuzzyTM)
+  Downloading http://mirrors.aliyun.com/pypi/packages/5a/d7/f7f93c41fde5b8c1f9d52cc0f9a104a56eca13dc6876c6d2f967ddef88d7/fst-pso-1.8.1.tar.gz (18 kB)
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Requirement already satisfied: typing-extensions in /opt/anaconda3/envs/paper/lib/python3.11/site-packages (from pyfume->FuzzyTM) (4.9.0)
+Requirement already satisfied: six>=1.5 in /opt/anaconda3/envs/paper/lib/python3.11/site-packages (from python-dateutil>=2.8.2->pandas->FuzzyTM) (1.16.0)
+Collecting miniful (from fst-pso->pyfume->FuzzyTM)
+  Downloading http://mirrors.aliyun.com/pypi/packages/05/c9/cc1fdd9956e6339b20a80ebfb98216e9b19cd2eac4e1ba9865ca2ef46fbc/miniful-0.0.6.tar.gz (2.8 kB)
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Building wheels for collected packages: fst-pso, miniful
+  Building wheel for fst-pso (setup.py): started
+  Building wheel for fst-pso (setup.py): finished with status 'done'
+  Created wheel for fst-pso: filename=fst_pso-1.8.1-py3-none-any.whl size=20430 sha256=4d0691456faad92832ac8e28a9d8ba0aa2bf0a95ee8f04cf6a09961554ef9c67
+  Stored in directory: /home/zhy/.cache/pip/wheels/28/28/a9/61923f4db0c77b8991813ceb7fe82c29bd7191eff6a30d7218
+  Building wheel for miniful (setup.py): started
+  Building wheel for miniful (setup.py): finished with status 'done'
+  Created wheel for miniful: filename=miniful-0.0.6-py3-none-any.whl size=3507 sha256=0b2fd2e6eef006e70561bbd557fdc6e2cc62e19fd4844050b61e7df077e131a3
+  Stored in directory: /home/zhy/.cache/pip/wheels/f5/5a/4a/eee0c1f52555517b595235ddea87196d140d9feb9f7fd4c1c6
+Successfully built fst-pso miniful
+Installing collected packages: simpful, miniful, fst-pso, pyfume, FuzzyTM
+Successfully installed FuzzyTM-2.0.9 fst-pso-1.8.1 miniful-0.0.6 pyfume-0.3.1 simpful-2.12.0
